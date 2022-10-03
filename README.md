@@ -17,4 +17,6 @@ _avec retour à la ligne_\
 | Header    | Title       | Texte |
 | Texte exemple aligné à gauche | Texte exemple centré | Texte exemple aligné à droite |
 
-Je suis une nouvelle phrase !
+## Fonctionnement
+
+Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du dossier parent, un fichier secret.txt contenant les client_secret et client_key.
