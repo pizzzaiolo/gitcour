@@ -43,6 +43,9 @@ Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du
 | git branch | -M, -d, -a (--all) | Créer ou renommer une branche de travail |
 | git checkout | -b | (Créer si l'option -b a été donnée et) Se positionner sur une branche de travail |
 | git merge | | Permet de fusionner l'historique Git de deux branches |
+| git remote add <alias> <url dépôt distant> | | Ajoute un alias lié à une URL de dépôt distant |
+| git remote | -v | Lister les différentes origines distantes |
+| git push [<alias> <branche>] | -u (--set-upstream) | Envoi le code source et l'historique des versions sur le dépôt distant mentionné
 
 ## Création d'un compte GitHub
 
