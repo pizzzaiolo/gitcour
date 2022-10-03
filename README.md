@@ -45,8 +45,8 @@ Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du
 | git merge | | Permet de fusionner l'historique Git de deux branches |
 | git remote add <alias> <url dépôt distant> | | Ajoute un alias lié à une URL de dépôt distant |
 | git remote | -v | Lister les différentes origines distantes |
-| git pull [<alias> <branche>] | -u (--set-upstream) | Récupérer les infos d'une branche distante et les fusionner avec la branche courante (équivalent git fetch + git merge) |
-| git push [<alias> <branche>] | -u (--set-upstream) | Envoi le code source et l'historique des versions sur le dépôt distant mentionné
+| git pull <alias> <branche> | -u (--set-upstream) | Récupérer les infos d'une branche distante et les fusionner avec la branche courante (équivalent git fetch + git merge) |
+| git push <alias> <branche> | -u (--set-upstream) | Envoi le code source et l'historique des versions sur le dépôt distant mentionné
 | git stash | | Retire et stocke en mémoire les changements non commités de la branche actuelle |
 | git stash apply | | Applique les changements du dernier patch sur la branche courante |
 
@@ -67,19 +67,25 @@ Aller sur github dans les paramètres du compte (icône du compte en haut à dro
 
 ## Exercice 
 
-Dans une autre branche que main, appliquer des modifications sur le fichier README.md ou tout autre fichier.
+Dans votre branche main :
 
-Envoyer les modifications sur votre dépôt distant.
+1. Créer une nouvelle branche avec la commande `git branch <branche>`
+2. Appliquer des modifications sur un ou plusieurs fichiers.
+3. Sauvegarder vos changements et les envoyer dans le dépôt distant.
 
-Revenir sur la branche 'main', et utiliser les commandes suivantes :
+Dans la branche que vous venez de créer à l'étape précédente :
 
-```
-git fetch origin <branche>
-git merge FETCH_HEAD
-```
+1. Récupérer les informations de la branche main depuis le dépôt distant.
+2. Fusionner ces changements dans cette nouvelle branche.
+3. Appliquer des modifications dans un ou plusieurs fichiers dans cette nouvelle branche.
+4. Sauvegarder les modifications et les envoyer dans le dépôt distant (sur la bonne branche, pas sur main !).
 
-Les deux commandes suivantes sont équivalentes à utiliser la commande :
+Dans la branche main :
 
-```
-git pull origin <branche>
-```
+1. Vous allez récupérer et fusionner les informations depuis l'autre branche sur le dépôt distant (une seule commande cette fois-ci).
+2. Vous allez apporter des modifications sur le fichier README.md (ce que vous voulez).
+3. Vous allez stocker ces changements via la commande `git stash`.
+
+Dans l'autre branche :
+
+1. Vous appliquerez les changements contenus dans le stash via la commande `git stash apply`.
