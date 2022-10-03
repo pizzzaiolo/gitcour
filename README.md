@@ -63,9 +63,6 @@ Laisser les valeurs par défaut (appuyer plusieurs fois sur la touche Entrée.
 
 Localiser la clé publique (par défaut : C:\Users\<username>\.ssh\) et copier le contenu du fichier id_rsa.pub.
 
-<<<<<<< HEAD
-Aller sur github dans les paramètres du compte (icône du compte en haut à droite de l'écran d'accueil >> settings >> SSH and GPG keys >> New SSH Key) et ajouter la clé nouvellement créée et copiée.
-=======
 Aller sur github dans les paramètres du compte (icône du compte en haut à droite de l'écran d'accueil >> settings >> SSH and GPG keys >> New SSH Key) et ajouter la clé nouvellement créée et copiée.
 
 ## Exercice 
@@ -86,4 +83,3 @@ Les deux commandes suivantes sont équivalentes à utiliser la commande :
 ```
 git pull origin <branche>
 ```
->>>>>>> ad195e07d3baf1bd01360e4bb977b03952a10f58
