@@ -15,4 +15,4 @@ _avec retour à la ligne_\
 | Syntax    | Description | Test  |
 | :-------- | :---------: | ----: |
 | Header    | Title       | Texte |
-| Texte exemple aligné à gauche | Texte exemple centré | Texte exemple à aligné à droite |
+| Texte exemple aligné à gauche | Texte exemple centré | Texte exemple aligné à droite |
