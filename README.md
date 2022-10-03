@@ -16,3 +16,5 @@ _avec retour à la ligne_\
 | :-------- | :---------: | ----: |
 | Header    | Title       | Texte |
 | Texte exemple aligné à gauche | Texte exemple centré | Texte exemple aligné à droite |
+
+Je suis une nouvelle phrase !
