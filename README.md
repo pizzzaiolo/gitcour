@@ -45,3 +45,16 @@ Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du
 | git merge | | Permet de fusionner l'historique Git de deux branches |
 
 ## Création d'un compte GitHub
+
+Aller sur [github](https://github.com/) et cliquer sur "Sign up" pour lancer le processus de création de compte.
+
+## Génération d'une clé SSH
+```bash
+ssh-keygen
+```
+
+Laisser les valeurs par défaut (appuyer plusieurs fois sur la touche Entrée.
+
+Localiser la clé publique (par défaut : C:\Users\<username>\.ssh\) et copier le contenu du fichier id_rsa.pub.
+
+Aller sur github dans les paramètres du compte (icône du compte en haut à droite de l'écran d'accueil >> settings >> SSH and GPG keys >> New SSH Key) et ajouter la clé nouvellement créée et copiée.
