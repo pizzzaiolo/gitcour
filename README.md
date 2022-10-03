@@ -43,3 +43,5 @@ Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du
 | git branch | -M, -d, -a (--all) | Créer ou renommer une branche de travail |
 | git checkout | -b | (Créer si l'option -b a été donnée et) Se positionner sur une branche de travail |
 | git merge | | Permet de fusionner l'historique Git de deux branches |
+
+## Création d'un compte GitHub
