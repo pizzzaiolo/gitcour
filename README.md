@@ -86,6 +86,7 @@ Dans la branche main :
 2. Vous allez apporter des modifications sur le fichier README.md (ce que vous voulez).
 3. Vous allez stocker ces changements via la commande `git stash`.
 
+
 Dans l'autre branche :
 
 1. Vous appliquerez les changements contenus dans le stash via la commande `git stash apply`.
