@@ -59,7 +59,7 @@ Aller sur [github](https://github.com/) et cliquer sur "Sign up" pour lancer le 
 ssh-keygen
 ```
 
-Laisser les valeurs par défaut (appuyer plusieurs fois sur la touche Entrée.
+Laisser les valeurs par défaut (appuyer plusieurs fois sur la touche Entrée).
 
 Localiser la clé publique (par défaut : C:\Users\<username>\.ssh\) et copier le contenu du fichier id_rsa.pub.
 
