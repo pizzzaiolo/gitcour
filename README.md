@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Exemple pour le cours versioning de code - l'outil Git
 ## EFREI 03/10/2022
 
@@ -91,3 +92,10 @@ Dans l'autre branche :
 
 1. Vous appliquerez les changements contenus dans le stash via la commande `git stash apply`.
 test 
+
+# Exemple pour le cours de versionning code
+## efreig
+test
+zezqe
+azeaez
+
